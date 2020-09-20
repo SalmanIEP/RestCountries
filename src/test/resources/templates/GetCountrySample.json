@@ -1,0 +1,41 @@
+{
+
+  "data":{
+      "countryDetails":
+         {
+         "countries":
+         [
+
+           {
+             "Code": "${Code}",
+             "text": "${text}",
+             "ApplicationNumberFormat": "${ApplicationNumberFormat}",
+             "IsInEEA": "${IsInEEA}",
+             "IsEC": "${IsEC}",
+             "CanClaimPriority": "${CanClaimPriority}",
+             "IsTrademarkEntity": "${IsTrademarkEntity}",
+             "IsPatentEntity": "${IsPatentEntity}",
+             "ValidFrom": "${ValidFrom}",
+             "ValidTo": "${ValidTo}"
+           },
+           {
+             "Code": "${Code}",
+             "text": "${text}",
+             "ApplicationNumberFormat": "${ApplicationNumberFormat}",
+             "IsInEEA": "${IsInEEA}",
+             "IsEC": "${IsEC}",
+             "CanClaimPriority": "${CanClaimPriority}",
+             "IsTrademarkEntity": "${IsTrademarkEntity}",
+             "IsPatentEntity": "${IsPatentEntity}",
+             "ValidFrom": "${ValidFrom}",
+             "ValidTo": "${ValidTo}"
+           }
+
+         ]
+         }
+
+         }
+
+
+}
+

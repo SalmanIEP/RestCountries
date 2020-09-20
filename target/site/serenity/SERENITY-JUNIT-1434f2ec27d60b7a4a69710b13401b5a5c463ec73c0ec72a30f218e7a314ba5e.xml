@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Getting details of WIPO’s members countries/States by service using different query parameters" skipped="0" tests="2" time="0.61" timestamp="2020-09-20 03:11:20"><testcase name="Getting all the details of the WIPO countries"/><testcase name="Getting all details Wipo countries as default without query parameters"><error message="Step [Then Service must return the Response Status code as {string}] is defined with 1 parameters at 'StepDefinitions.GetCountries_Steps.thenServiceMustReturnTheResponseStatusCodeAs(String) in file:/C:/Users/admin/Downloads/serenity-rest-starter-master%20(1)/WipoCountriesIntegrationTests/target/test-classes/'.&#10;However, the gherkin step has 2 arguments:&#10; * &quot;&lt;StatusCode&gt;&quot;&#10; * Table:&#10;      | StatusCOde |&#10;      | 200        |&#10;&#10;Step text: Then Service must return the Response Status code as &quot;&lt;StatusCode&gt;&quot;" type="cucumber.runtime.CucumberException">Step [Then Service must return the Response Status code as {string}] is defined with 1 parameters at 'StepDefinitions.GetCountries_Steps.thenServiceMustReturnTheResponseStatusCodeAs(String) in file:/C:/Users/admin/Downloads/serenity-rest-starter-master%20(1)/WipoCountriesIntegrationTests/target/test-classes/'.
+However, the gherkin step has 2 arguments:
+ * "&lt;StatusCode&gt;"
+ * Table:
+      | StatusCOde |
+      | 200        |
+
+Step text: Then Service must return the Response Status code as "&lt;StatusCode&gt;"</error><system-err>Step [Then Service must return the Response Status code as {string}] is defined with 1 parameters at 'StepDefinitions.GetCountries_Steps.thenServiceMustReturnTheResponseStatusCodeAs(String) in file:/C:/Users/admin/Downloads/serenity-rest-starter-master%20(1)/WipoCountriesIntegrationTests/target/test-classes/'.
+However, the gherkin step has 2 arguments:
+ * "&lt;StatusCode&gt;"
+ * Table:
+      | StatusCOde |
+      | 200        |
+
+Step text: Then Service must return the Response Status code as "&lt;StatusCode&gt;"&#13;
+cucumber.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:84)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:36)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:63)&#13;
+cucumber.runner.TestStep.run(TestStep.java:49)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:44)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:40)&#13;
+</system-err></testcase></testsuite>
